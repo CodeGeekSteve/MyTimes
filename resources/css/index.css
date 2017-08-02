@@ -160,10 +160,10 @@ hr{
   justify-content: center;
   margin: auto;
   height: 330px;
+  flex-direction: column;
 }
 
 .title{
-  display: inline-block;
   padding-right: 25px;
   border-right: 2px solid white;
   font-family: Georgia;
@@ -172,6 +172,19 @@ hr{
   color: white;
 }
 
-.copy{
-
+.row1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.row2{
+display: flex;
+justify-content: center;
+margin-right: 72px;
+}
+
+
+.navi ul{
+  display: flex;
+  justify-content: space-between;;
